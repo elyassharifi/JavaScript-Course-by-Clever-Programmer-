@@ -7,9 +7,16 @@
 // it to seconds
 
 function howManySeconds(hours) {
+  //Ask
+  let result = Number(hours)
+  convertor = result * 60;
+  console.log(convertor);
+  //convert that hour to second
+  //console.log
   // Your function should return an integer
   // of how many seconds are in the hour
 }
+howManySeconds(24);
 
 //Topics: Variables,functions, Math
 
